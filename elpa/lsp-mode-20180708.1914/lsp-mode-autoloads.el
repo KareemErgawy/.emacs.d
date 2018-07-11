@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "lsp-methods" "lsp-methods.el" (23351 42810
-;;;;;;  184722 456000))
+;;;### (autoloads nil "lsp-methods" "lsp-methods.el" (23366 10568
+;;;;;;  942268 539000))
 ;;; Generated autoloads from lsp-methods.el
 
 (let ((loads (get 'lsp-mode 'custom-loads))) (if (member '"lsp-methods" loads) nil (put 'lsp-mode 'custom-loads (cons '"lsp-methods" loads))))
@@ -83,8 +83,8 @@ Face used for highlighting symbols being written to." :group (quote lsp-faces))
 
 ;;;***
 
-;;;### (autoloads nil "lsp-mode" "lsp-mode.el" (23351 42810 200722
-;;;;;;  279000))
+;;;### (autoloads nil "lsp-mode" "lsp-mode.el" (23366 10568 970268
+;;;;;;  706000))
 ;;; Generated autoloads from lsp-mode.el
 
 (autoload 'lsp-mode "lsp-mode" "\
@@ -95,8 +95,8 @@ Face used for highlighting symbols being written to." :group (quote lsp-faces))
 ;;;***
 
 ;;;### (autoloads nil nil ("lsp-common.el" "lsp-flycheck.el" "lsp-imenu.el"
-;;;;;;  "lsp-io.el" "lsp-mode-pkg.el" "lsp-notifications.el") (23351
-;;;;;;  42810 196722 323000))
+;;;;;;  "lsp-io.el" "lsp-mode-pkg.el" "lsp-notifications.el") (23366
+;;;;;;  10568 962268 658000))
 
 ;;;***
 
