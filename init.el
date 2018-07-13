@@ -36,6 +36,13 @@
 ;; (setq cquery-extra-init-params '(:cacheFormat "msgpack"))
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;
 
+(require 'company-lsp)
+(push 'company-lsp company-backends)
+
+(require 'lsp-mode)
+(require 'lsp-python)
+(add-hook 'python-mode-hook #'lsp-python-enable)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -43,7 +50,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (lsp-python helm-ag helm cquery lsp-mode dracula-theme evil))))
+    (lsp-ui company-lsp python-mode lsp-python helm-ag helm cquery lsp-mode dracula-theme evil))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
